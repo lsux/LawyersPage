@@ -1,27 +1,28 @@
 import { Menu } from "@/types/menu";
+import { ABOUT, CONTACT_US, HOME, NEWS } from "@/texts";
 
 const menuData: Menu[] = [
   {
     id: 1,
-    title: "Home",
+    title: HOME,
     path: "/",
     newTab: false,
   },
   {
     id: 2,
-    title: "About",
+    title: ABOUT,
     path: "/about",
     newTab: false,
   },
   {
     id: 33,
-    title: "Blog",
+    title: NEWS,
     path: "/blog",
     newTab: false,
   },
   {
     id: 3,
-    title: "Support",
+    title: CONTACT_US,
     path: "/contact",
     newTab: false,
   },
@@ -58,24 +59,6 @@ const menuData: Menu[] = [
         id: 45,
         title: "Blog Details Page",
         path: "/blog-details",
-        newTab: false,
-      },
-      {
-        id: 46,
-        title: "Sign In Page",
-        path: "/signin",
-        newTab: false,
-      },
-      {
-        id: 47,
-        title: "Sign Up Page",
-        path: "/signup",
-        newTab: false,
-      },
-      {
-        id: 48,
-        title: "Error Page",
-        path: "/error",
         newTab: false,
       },
     ],
