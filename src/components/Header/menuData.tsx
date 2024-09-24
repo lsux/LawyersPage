@@ -32,18 +32,6 @@ const menuData: Menu[] = [
     newTab: false,
     submenu: [
       {
-        id: 41,
-        title: "About Page",
-        path: "/about",
-        newTab: false,
-      },
-      {
-        id: 42,
-        title: "Contact Page",
-        path: "/contact",
-        newTab: false,
-      },
-      {
         id: 43,
         title: "Blog Grid Page",
         path: "/blog",
