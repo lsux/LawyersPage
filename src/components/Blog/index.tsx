@@ -12,7 +12,7 @@ const Blog = () => {
       <div className="container">
         <SectionTitle
           title={OUR_LASTEST_BLOGS}
-          paragraph="Mantente informado con las noticias más destacadass."
+          paragraph="Mantente informado con las noticias más destacadas."
           center
         />
 

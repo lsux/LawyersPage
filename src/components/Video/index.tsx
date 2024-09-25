@@ -15,7 +15,7 @@ const Video = () => {
       <div className="container">
         <SectionTitle
           title={BANNER_TITLE}
-          paragraph="There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration in some form."
+          paragraph="Comprometidos con la excelencia, en todo amar y servir."
           center
           mb="80px"
         />
