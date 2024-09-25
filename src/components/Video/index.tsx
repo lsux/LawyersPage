@@ -5,7 +5,7 @@ import { useState } from "react";
 import SectionTitle from "../Common/SectionTitle";
 
 import ModalVideo from "react-modal-video";
-import { BANNER_TITLE } from "@/texts";
+import { BANNER_DESCRIPTION, BANNER_TITLE } from "@/texts";
 
 const Video = () => {
   const [isOpen, setOpen] = useState(false);
@@ -15,7 +15,7 @@ const Video = () => {
       <div className="container">
         <SectionTitle
           title={BANNER_TITLE}
-          paragraph="Comprometidos con la excelencia, en todo amar y servir."
+          paragraph={BANNER_DESCRIPTION}
           center
           mb="80px"
         />
