@@ -6,28 +6,73 @@ import { OUR_TEAM, OUR_TEAM_SUBTITLE } from "@/texts";
 const testimonialData: Testimonial[] = [
   {
     id: 1,
-    name: "Musharof Chy",
-    designation: "Founder @TailGrids",
+    name: "Ramón Darío Sosa Caraballo",
+    designation: "Director ejecutivo y socio fundador de Sosa & Martínez Estudio Jurídico",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Ramón Darío Sosa Caraballo.",
     image: "/images/testimonials/auth-01.png",
     star: 5,
   },
   {
     id: 2,
-    name: "Devid Weilium",
-    designation: "Founder @UIdeck",
+    name: "Janeth M. Cedeño Velázquez.",
+    designation: "Directora del Departamento de Litigios en Sosa & Martínez Estudio Jurídico.",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Janeth M. Cedeño Velázquez.",
     image: "/images/testimonials/auth-02.png",
     star: 5,
   },
   {
     id: 3,
-    name: "Lethium Frenci",
-    designation: "Founder @Lineicons",
+    name: "Luis M. Camino Contreras.",
+    designation: "Abogado Senior en Sosa & Martínez Estudio Jurídico.",
     content:
-      "Our members are so impressed. It's intuitive. It's clean. It's distraction free. If you're building a community.",
+      "Luis M. Camino Contreras.",
+    image: "/images/testimonials/auth-03.png",
+    star: 5,
+  },
+  {
+    id: 4,
+    name: "Josmel A. Baena Sandoval.",
+    designation: "Director del Departamento de Investigación y Desarrollo en Sosa & Martínez Estudio Jurídico.",
+    content:
+      "Josmel A. Baena Sandoval.",
+    image: "/images/testimonials/auth-03.png",
+    star: 5,
+  },
+  {
+    id: 5,
+    name: "Jesús F. Hernández Casas.",
+    designation: "Abogado Junior en Sosa & Martínez Estudio Jurídico.",
+    content:
+      "Jesús F. Hernández Casas.",
+    image: "/images/testimonials/auth-03.png",
+    star: 5,
+  },
+  {
+    id: 6,
+    name: "Eyleen Romero Rodríguez.",
+    designation: "Abogado Junior y Abogado Investigador del Departamento de Investigación en Sosa & Martínez Estudio Jurídico.",
+    content:
+      "Eyleen Romero Rodríguez.",
+    image: "/images/testimonials/auth-03.png",
+    star: 5,
+  },
+  {
+    id: 7,
+    name: "Angimar Eunellys Damas Bello.",
+    designation: "Asistente Legal y del Departamento de Investigación y Desarrollo en Sosa & Martínez Estudio Jurídico.",
+    content:
+      "Angimar Eunellys Damas Bello.",
+    image: "/images/testimonials/auth-03.png",
+    star: 5,
+  },
+  {
+    id: 8,
+    name: "Jhonny J. Bompart Lezza.",
+    designation: "Asistente Legal y del Departamento de Investigación y Desarrollo en Sosa & Martínez Estudio Jurídico.",
+    content:
+      "Jhonny J. Bompart Lezza.",
     image: "/images/testimonials/auth-03.png",
     star: 5,
   },
