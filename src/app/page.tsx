@@ -4,7 +4,7 @@ import Blog from "@/components/Blog";
 import Brands from "@/components/Brands";
 import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
-import Features from "@/components/Features";
+import Sectors from "@/components/Sectors";
 import Hero from "@/components/Hero";
 import Testimonials from "@/components/Testimonials";
 import Video from "@/components/Video";
@@ -22,7 +22,7 @@ export default function Home() {
     <>
       <ScrollUp />
       <Hero />
-      <Features />
+      <Sectors />
       <Video />
       <Brands />
       {/* <AboutSectionOne />
