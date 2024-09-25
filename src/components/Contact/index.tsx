@@ -12,10 +12,10 @@ const Contact = () => {
               "
             >
               <h2 className="mb-3 text-2xl font-bold text-black dark:text-white sm:text-3xl lg:text-2xl xl:text-3xl">
-               ¿Necesitas ayuda? Contáctanos
+               ¿Necesitas ayuda?
               </h2>
               <p className="mb-12 text-base font-medium text-body-color">
-                Nuestro equipo te contactará vía email.
+                Nuestro equipo le responderá en menos de 48 horas.
               </p>
               <form>
                 <div className="-mx-4 flex flex-wrap">
@@ -25,7 +25,7 @@ const Contact = () => {
                         htmlFor="name"
                         className="mb-3 block text-sm font-medium text-dark dark:text-white"
                       >
-                        Tu nombre
+                        Nombre
                       </label>
                       <input
                         type="text"
@@ -40,7 +40,7 @@ const Contact = () => {
                         htmlFor="email"
                         className="mb-3 block text-sm font-medium text-dark dark:text-white"
                       >
-                        Tu Email
+                        Email
                       </label>
                       <input
                         type="email"
@@ -55,7 +55,7 @@ const Contact = () => {
                         htmlFor="message"
                         className="mb-3 block text-sm font-medium text-dark dark:text-white"
                       >
-                        Tu mensaje
+                        Mensaje
                       </label>
                       <textarea
                         name="message"
@@ -67,7 +67,7 @@ const Contact = () => {
                   </div>
                   <div className="w-full px-4">
                     <button className="rounded-sm bg-primary px-9 py-4 text-base font-medium text-white shadow-submit duration-300 hover:bg-primary/90 dark:shadow-submit-dark">
-                      Enviar
+                      Enviar caso
                     </button>
                   </div>
                 </div>
