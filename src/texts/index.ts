@@ -24,52 +24,52 @@ export const SECTORS = [
   {
     title: "Civil",
     code: "CIVIL",
-    icon: "",
+    icon: "/images/sectors/balanza-sosa-martinez-azul-50.png",
   },
   {
     title: "Laboral",
     code: "LABOR",
-    icon: "",
+    icon: "/images/sectors/laboral-sosa-martinez-50.png",
   },
   {
     title: "Aviación",
     code: "AVIATION",
-    icon: "",
+    icon: "/images/sectors/aviacion-sosa-martinez-50.png",
   },
   {
     title: "Tributario",
     code: "TRIBUTARY",
-    icon: "",
+    icon: "/images/sectors/tributo-sosa-martinez-b50.png",
   },
   {
     title: "Minero",
     code: "MINING",
-    icon: "",
+    icon: "/images/sectors/minero-sosa-martinez-50.png",
   },
   {
     title: "Mercantil",
     code: "COMMERTIAL",
-    icon: "",
+    icon: "/images/sectors/mercantil-sosa-martinez-b50.png",
   },
   {
     title: "Ambiental",
     code: "ENVIRONMENT",
-    icon: "",
+    icon: "/images/sectors/ambiental-sosa-martinez-50.png",
   },
   {
     title: "Comercio Exterior",
     code: "FOREIGN_TRADE",
-    icon: "",
+    icon: "/images/sectors/comercio-exterior-sosa-martinez-50.png",
   },
   {
     title: "Administrativo",
     code: "ADMINISTRATIVE",
-    icon: "",
+    icon: "/images/sectors/administrativo-sosa-martinez-b50.png",
   },
   {
     title: "Marítimo",
     code: "MARITIME",
-    icon: "",
+    icon: "/images/sectors/maritimo-sosa-martinez-b50.png",
   },
 ];
 
