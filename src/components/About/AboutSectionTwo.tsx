@@ -28,23 +28,21 @@ const AboutSectionTwo = () => {
             <div className="max-w-[470px]">
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Bug free code
+                  Misión
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+                  Nuestra misión es prestar a nuestros clientes servicios con los estándares internacionales de calidad profesional, acordes a sus necesidades, en el ámbito de Asesoría Legal, Asesoría Tributaria, Normas Internacionales de Información Financiera, Normas Internacionales de Auditoría y Asesoría en Negocios Nacionales e Internacionales.
                 </p>
               </div>
               <div className="mb-9">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
-                  Premier support
+                  Visión
                 </h3>
                 <p className="text-base font-medium leading-relaxed text-body-color sm:text-lg sm:leading-relaxed">
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt.
+                Nuestra visión como firma está orientada al asesoramiento profesional personalizado, para satisfacer las necesidades de nuestros clientes nacionales e internacionales tanto del sector público como privado.
                 </p>
               </div>
-              <div className="mb-1">
+              {/* <div className="mb-1">
                 <h3 className="mb-4 text-xl font-bold text-black dark:text-white sm:text-2xl lg:text-xl xl:text-2xl">
                   Next.js
                 </h3>
@@ -52,7 +50,7 @@ const AboutSectionTwo = () => {
                   Lorem ipsum dolor sit amet, sed do eiusmod tempor incididunt
                   consectetur adipiscing elit setim.
                 </p>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>
