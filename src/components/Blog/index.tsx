@@ -1,4 +1,4 @@
-import { OUR_LASTEST_BLOGS } from "@/texts";
+import { OUR_LASTEST_BLOGS, OUR_LASTEST_BLOGS_DESCRIPTION } from "@/texts";
 import SectionTitle from "../Common/SectionTitle";
 import SingleBlog from "./SingleBlog";
 import blogData from "./blogData";
@@ -12,7 +12,7 @@ const Blog = () => {
       <div className="container">
         <SectionTitle
           title={OUR_LASTEST_BLOGS}
-          paragraph="Mantente informado con las noticias más destacadas."
+          paragraph={OUR_LASTEST_BLOGS_DESCRIPTION}
           center
         />
 

@@ -1,91 +1,82 @@
-import { Testimonial } from "@/types/testimonial";
-import SectionTitle from "../Common/SectionTitle";
-import SingleTestimonial from "./SingleTestimonial";
 import { OUR_TEAM, OUR_TEAM_SUBTITLE } from "@/texts";
+import { IMember } from "@/types/team";
+import SectionTitle from "../Common/SectionTitle";
+import Member from "./Member";
 
-const testimonialData: Testimonial[] = [
+const teamData: IMember[] = [
   {
     id: 1,
     name: "Ramón Darío Sosa Caraballo",
-    designation: "Director ejecutivo y socio fundador de Sosa & Martínez Estudio Jurídico",
-    content:
-      "Ramón Darío Sosa Caraballo.",
-    image: "/images/testimonials/auth-01.png",
-    star: 5,
+    image: "/images/team/DR SOSA.png",
+    email: "ramon.sosa@sosamartinez.com",
+    phoneNumber: "+58 (416) 154.26.67​",
   },
   {
     id: 2,
     name: "Janeth M. Cedeño Velázquez.",
-    designation: "Directora del Departamento de Litigios en Sosa & Martínez Estudio Jurídico.",
-    content:
-      "Janeth M. Cedeño Velázquez.",
-    image: "/images/testimonials/auth-02.png",
-    star: 5,
+    image: "/images/team/JANETH.png",
+    email: "janeth.cedeno@sosamartinez.com",
+    phoneNumber: "+58 (416) 154.26.67​",
   },
   {
     id: 3,
     name: "Luis M. Camino Contreras.",
-    designation: "Abogado Senior en Sosa & Martínez Estudio Jurídico.",
-    content:
-      "Luis M. Camino Contreras.",
-    image: "/images/testimonials/auth-03.png",
-    star: 5,
+    image: "/images/team/LUIS.png",
+    email: "luis.camino@sosamartinez.com",
+    phoneNumber: "+58 (416) 154.26.67​",
   },
   {
     id: 4,
     name: "Josmel A. Baena Sandoval.",
-    designation: "Director del Departamento de Investigación y Desarrollo en Sosa & Martínez Estudio Jurídico.",
-    content:
-      "Josmel A. Baena Sandoval.",
-    image: "/images/testimonials/auth-03.png",
-    star: 5,
+    image: "/images/team/JOSMEL.png",
+    email: "josmel.baena@sosamartinez.com",
+    phoneNumber: "+58 (416) 154.26.67​",
   },
   {
     id: 5,
     name: "Jesús F. Hernández Casas.",
-    designation: "Abogado Junior en Sosa & Martínez Estudio Jurídico.",
-    content:
-      "Jesús F. Hernández Casas.",
-    image: "/images/testimonials/auth-03.png",
-    star: 5,
+    image: "/images/team/JESUS.png",
+    email: "jesus.hernandez@sosamartinez.com",
+    phoneNumber: "+58 (416) 154.26.67​",
   },
   {
     id: 6,
     name: "Eyleen Romero Rodríguez.",
-    designation: "Abogado Junior y Abogado Investigador del Departamento de Investigación en Sosa & Martínez Estudio Jurídico.",
-    content:
-      "Eyleen Romero Rodríguez.",
-    image: "/images/testimonials/auth-03.png",
-    star: 5,
+    image: "/images/team/EYLEEN.png",
+    email: "eyleen.romero@sosamartinez.com",
+    phoneNumber: "+58 (416) 154.26.67​",
   },
   {
     id: 7,
     name: "Angimar Eunellys Damas Bello.",
-    designation: "Asistente Legal y del Departamento de Investigación y Desarrollo en Sosa & Martínez Estudio Jurídico.",
-    content:
-      "Angimar Eunellys Damas Bello.",
-    image: "/images/testimonials/auth-03.png",
-    star: 5,
+    image: "/images/team/ANGIE.png",
+    email: "",
+    phoneNumber: "+58 (416) 154.26.67​",
   },
   {
     id: 8,
     name: "Jhonny J. Bompart Lezza.",
-    designation: "Asistente Legal y del Departamento de Investigación y Desarrollo en Sosa & Martínez Estudio Jurídico.",
-    content:
-      "Jhonny J. Bompart Lezza.",
-    image: "/images/testimonials/auth-03.png",
-    star: 5,
+    image: "/images/team/JHONNY.png",
+    email: "",
+    phoneNumber: "+58 (416) 154.26.67​",
+  },
+  {
+    id: 9,
+    name: "Arianna",
+    image: "/images/team/ARIANNA.png",
+    email: "",
+    phoneNumber: "+58 (416) 154.26.67​",
   },
 ];
 
-const Testimonials = () => {
+const Team = () => {
   return (
     <section className="relative z-10 bg-gray-light py-16 dark:bg-bg-color-dark md:py-20 lg:py-28">
       <div className="container">
         <SectionTitle title={OUR_TEAM} paragraph={OUR_TEAM_SUBTITLE} center />
         <div className="grid grid-cols-1 gap-x-8 gap-y-10 md:grid-cols-2 lg:grid-cols-3">
-          {testimonialData.map((testimonial) => (
-            <SingleTestimonial key={testimonial.id} testimonial={testimonial} />
+          {teamData.map((member) => (
+            <Member key={member.id} member={member} />
           ))}
         </div>
       </div>
@@ -221,4 +212,4 @@ const Testimonials = () => {
   );
 };
 
-export default Testimonials;
+export default Team;

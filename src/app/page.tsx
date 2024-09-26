@@ -6,14 +6,14 @@ import ScrollUp from "@/components/Common/ScrollUp";
 import Contact from "@/components/Contact";
 import Sectors from "@/components/Sectors";
 import Hero from "@/components/Hero";
-import Testimonials from "@/components/Testimonials";
+import Team from "@/components/Team";
 import Video from "@/components/Video";
-import { PAGE_TITLE } from "@/texts";
+import { PAGE_DESCRIPTION, PAGE_TITLE } from "@/texts";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: PAGE_TITLE,
-  description: "This is Home for Startup Nextjs Template",
+  description: PAGE_DESCRIPTION,
   // other metadata
 };
 
@@ -27,7 +27,7 @@ export default function Home() {
       <Brands />
       <AboutSectionOne />
       <AboutSectionTwo />
-      <Testimonials />
+      <Team />
       <Blog />
       <Contact />
     </>

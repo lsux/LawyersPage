@@ -19,14 +19,19 @@ const Hero = () => {
           <div className="-mx-4 flex flex-wrap">
             <div className="w-full px-4">
               <div
-                className="mx-auto mb-10 h-[220px] w-[220px] overflow-hidden	rounded-full"
-                style={{ boxShadow: "1px 1px 5px 0 rgba(0, 0, 0, 0.5)" }}
+                className=":w-[400px] mx-auto mb-10 h-[200px] overflow-hidden rounded md:h-[480px]	md:w-[720px]"
+                // style={{ boxShadow: "1px 1px 5px 0 rgba(0, 0, 0, 0.5)" }}
+                style={{
+                  maskImage:
+                    "radial-gradient(closest-corner, black 45%, transparent 70%)",
+                  // "radial-gradient(closest-side, black 50%, transparent 100%)",
+                }}
               >
                 <Image
                   src="/images/hero/hero_image.jpg"
                   alt="Sosa & Martínez"
-                  width={220}
-                  height={220}
+                  width={720}
+                  height={480}
                 />
               </div>
               <div className="mx-auto  max-w-[800px] text-center">

@@ -78,6 +78,33 @@ export const BANNER_TITLE = "Listos para ayudar";
 export const BANNER_DESCRIPTION =
   "Comprometidos con la excelencia, en todo amar y servir.";
 
+//about us 1
+export const ABOUT_US_1_TITLE = "Estudio Juridico especializado.";
+export const ABOUT_US_1_DESCRIPTION =
+  "Nuestro principal valor eres tú. Como profesionales legales, nuestro enfoque es construir valor en conjunto contigo con estándares internacionales de calidad, transmitiendo esas virtudes que nos caracterizan:";
+export const ABOUT_US_ATTRIBUTES = [
+  "Calidad",
+  "Experiencia",
+  "Pasión",
+  "Confianza",
+  "Profesionalismo",
+  "Seguridad",
+];
+
+//about us 2
+export const MISSION = "Misión";
+export const MISSION_DESCRIPTION = `Nuestra misión es prestar a nuestros clientes servicios con
+                  los estándares internacionales de calidad profesional, acordes
+                  a sus necesidades, en el ámbito de Asesoría Legal, Asesoría
+                  Tributaria, Normas Internacionales de Información Financiera,
+                  Normas Internacionales de Auditoría y Asesoría en Negocios
+                  Nacionales e Internacionales.`;
+export const VISION = "Visión";
+export const VISION_DESCRIPTION = `Nuestra visión como firma está orientada al asesoramiento
+                  profesional personalizado, para satisfacer las necesidades de
+                  nuestros clientes nacionales e internacionales tanto del
+                  sector público como privado.`;
+
 //team
 export const OUR_TEAM = "Nuestros miembros ";
 export const OUR_TEAM_SUBTITLE =
@@ -88,7 +115,6 @@ export const FOOTER_TILTE =
   "Firma de abogados establecida en el año 1996, en Puerto Ordaz. Conformada por un grupo de profesionales del derecho.";
 export const FOOTER_SUBTITLE =
   "© 2011-2024 S. C. Sosa & Martínez Estudio Jurídico - RIF J-31257415-1 - Todos los Derechos Reservados";
-export const OUR_LASTEST_BLOGS = "Nuestras últimas noticias";
 export const LINKS_UTILES = "Enlaces útiles";
 
 //contact us
@@ -105,3 +131,8 @@ export const SEND_CASE = "Enviar caso";
 export const PHONE_NUMBER_TEXT = "Teléfono";
 export const PHONE_NUMBER_TEXT_PLACEHOLDER = "Escribe tu número de teléfono";
 export const CONTACT_INFO = "Información de contacto";
+
+//blog
+export const OUR_LASTEST_BLOGS = "Nuestras últimas noticias";
+export const OUR_LASTEST_BLOGS_DESCRIPTION =
+  "Mantente informado con las noticias más destacadas.";

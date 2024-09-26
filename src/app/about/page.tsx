@@ -6,7 +6,8 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: "Sobre nosotros Page",
-  description: "Pagina que habla sobre la informacion general del Estudio Juridico.",
+  description:
+    "Pagina que habla sobre la informacion general del Estudio Juridico.",
   // other metadata
 };
 
