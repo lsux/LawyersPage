@@ -1,43 +1,63 @@
 "use client";
 
+import { CONTACT_INFO } from "@/texts";
+import { ADDRESS, EMAIL, MOBILE_NUMBER, PHONE_NUMBER } from "@/texts/info";
 import { useTheme } from "next-themes";
+import {
+  MdLocalPhone,
+  MdOutlineLocationOn,
+  MdOutlineMail,
+} from "react-icons/md";
+import { FaMobileAlt } from "react-icons/fa";
+const Separator = () => (
+  <div className="mb-6 border-b border-body-color border-opacity-25 pb-6 text-base leading-relaxed text-body-color dark:border-white dark:border-opacity-25"></div>
+);
 
 const NewsLatterBox = () => {
   const { theme } = useTheme();
 
   return (
     <div className="relative z-10 rounded-sm bg-white p-8 shadow-three dark:bg-gray-dark sm:p-11 lg:p-8 xl:p-11">
-      <h3 className="mb-16 text-2xl font-bold leading-tight text-black dark:text-white">
-        Información de contacto
+      <h3 className="mb-10 text-2xl font-bold leading-tight text-black dark:text-white">
+        {CONTACT_INFO}
       </h3>
-
       <div>
-        <p className="text-center text-base leading-relaxed text-body-color dark:text-body-color-dark">
-          Carrera Guri, Torre Empresarial Atlantis, Piso 7, Oficina 7-1, Alta
-          Vista, Puerto Ordaz. Ciudad Guayana, Bolívar, 8050, Venezuela
-        </p>
-
-        <p className="mb-6 border-b border-body-color border-opacity-25 pb-6 text-base leading-relaxed text-body-color dark:border-white dark:border-opacity-25"></p>
-
-        <p className="text-center text-base leading-relaxed text-body-color dark:text-body-color-dark">
-          sosamartinez@sosamartinez.com
-        </p>
-
-        <p className="mb-6 border-b border-body-color border-opacity-25 pb-6 text-base leading-relaxed text-body-color dark:border-white dark:border-opacity-25"></p>
-
-        <p className="text-center text-base leading-relaxed text-body-color dark:text-body-color-dark">
-          +58 (286) 961.65.83 / 962.36.42 / 962.30.00
-        </p>
-
-        <p className="mb-6 border-b border-body-color border-opacity-25 pb-6 text-base leading-relaxed text-body-color dark:border-white dark:border-opacity-25"></p>
-
-        <p className="text-center text-base leading-relaxed text-body-color dark:text-body-color-dark">
-          +58 (416) 154.26.67
-        </p>
-
-        <p className="mb-11 border-b border-body-color border-opacity-25 pb-6 text-base leading-relaxed text-body-color dark:border-white dark:border-opacity-25"></p>
+        <div className="flex items-center gap-4">
+          <div className="flex w-[30px] items-center">
+            <MdOutlineLocationOn size={30} />
+          </div>
+          <p className="text-sm leading-relaxed text-body-color dark:text-body-color-dark">
+            {ADDRESS}
+          </p>
+        </div>
+        <Separator />
+        <div className="flex items-center gap-4">
+          <div className="flex w-[30px] items-center">
+            <MdOutlineMail size={30} />
+          </div>
+          <p className="text-sm leading-relaxed text-body-color dark:text-body-color-dark">
+            {EMAIL}
+          </p>
+        </div>
+        <Separator />
+        <div className="flex items-center gap-4">
+          <div className="flex w-[30px] items-center">
+            <MdLocalPhone size={30} />
+          </div>
+          <p className="text-sm leading-relaxed text-body-color dark:text-body-color-dark">
+            {PHONE_NUMBER}
+          </p>
+        </div>
+        <Separator />
+        <div className="flex items-center gap-4">
+          <div className="flex w-[30px] items-center">
+            <FaMobileAlt size={30} />
+          </div>
+          <p className="text-sm leading-relaxed text-body-color dark:text-body-color-dark">
+            {MOBILE_NUMBER}
+          </p>
+        </div>
       </div>
-
       <div>
         <span className="absolute left-2 top-7">
           <svg

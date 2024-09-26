@@ -3,9 +3,10 @@ import {
   BUSINESS_DESCRIPTION_2,
   BUSINESS_NAME,
 } from "@/texts";
-import { EMAIL, PHONE_NUMBER } from "@/texts/info";
+import { EMAIL, MOBILE_NUMBER } from "@/texts/info";
 import Image from "next/image";
-import { MdLocalPhone, MdOutlineMail } from "react-icons/md";
+import { FaMobileAlt } from "react-icons/fa";
+import { MdOutlineMail } from "react-icons/md";
 
 const Hero = () => {
   return (
@@ -40,8 +41,8 @@ const Hero = () => {
                 </p>
                 <div className="flex flex-col items-center justify-center space-y-4 sm:flex-row sm:space-x-4 sm:space-y-0">
                   <button className=" flex items-center gap-3 text-nowrap rounded-md bg-primary px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-primary/80">
-                    <MdLocalPhone size={20} />
-                    {PHONE_NUMBER}
+                    <FaMobileAlt size={20} />
+                    {MOBILE_NUMBER}
                   </button>
                   <button className="inline-block flex items-center gap-3 rounded-md bg-black px-8 py-4 text-base font-semibold text-white duration-300 ease-in-out hover:bg-black/90 dark:bg-white/10 dark:text-white dark:hover:bg-white/5">
                     <MdOutlineMail size={20} />

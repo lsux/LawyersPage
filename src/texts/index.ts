@@ -104,3 +104,4 @@ export const MESSAGE_PLACEHOLDER = "Comente sobre tu posible caso";
 export const SEND_CASE = "Enviar caso";
 export const PHONE_NUMBER_TEXT = "Teléfono";
 export const PHONE_NUMBER_TEXT_PLACEHOLDER = "Escribe tu número de teléfono";
+export const CONTACT_INFO = "Información de contacto";
