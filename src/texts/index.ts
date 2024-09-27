@@ -1,6 +1,6 @@
-export const PAGE_TITLE = "Sosa&Martinez | Estudio jurídico";
+export const PAGE_TITLE = "Sosa Caraballo | Estudio jurídico";
 export const PAGE_DESCRIPTION =
-  "Sosa & Martínez Estudio Jurídico, firma de abogados que se establece en el año 1996, en Puerto Ordaz, Estado Bolívar, República Bolivariana de Venezuela";
+  "Sosa Caraballo Estudio Jurídico, firma de abogados que se establece en el año 1996, en Puerto Ordaz, Estado Bolívar, República Bolivariana de Venezuela";
 
 //navbar
 export const HOME = "Inicio";
@@ -9,7 +9,7 @@ export const NEWS = "Noticias";
 export const CONTACT_US = "Contáctanos";
 
 //hero
-export const BUSINESS_NAME = "Sosa & Martínez";
+export const BUSINESS_NAME = "Sosa Caraballo";
 export const BUSINESS_DESCRIPTION_1 =
   "Somos una firma de abogados establecida en el año 1996, en Puerto Ordaz, Estado Bolívar, República Bolivariana de Venezuela.";
 export const BUSINESS_DESCRIPTION_2 =
@@ -114,7 +114,7 @@ export const OUR_TEAM_SUBTITLE =
 export const FOOTER_TILTE =
   "Firma de abogados establecida en el año 1996, en Puerto Ordaz. Conformada por un grupo de profesionales del derecho.";
 export const FOOTER_SUBTITLE =
-  "© 2011-2024 S. C. Sosa & Martínez Estudio Jurídico - RIF J-31257415-1 - Todos los Derechos Reservados";
+  "© 2011-2024 S. C. Sosa Caraballo Estudio Jurídico - RIF J-31257415-1 - Todos los Derechos Reservados";
 export const LINKS_UTILES = "Enlaces útiles";
 
 //contact us
