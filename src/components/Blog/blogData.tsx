@@ -3,45 +3,45 @@ import { Blog } from "@/types/blog";
 const blogData: Blog[] = [
   {
     id: 1,
-    title: "Best UI components for modern websites",
+    title: "El Estudio Juridico de Sosa caraballo renueva imagen.",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Despues de 28 años de trayectoria, el Estudio Juridico de Sosa Caraballo renueva su imagen para seguir construyendo un legado de excelencia y compromiso.",
     image: "/images/blog/blog-01.jpg",
     author: {
-      name: "Samuyl Joshi",
+      name: "Ismael Cala",
       image: "/images/blog/author-01.png",
-      designation: "Graphic Designer",
+      designation: "Periodista y escritor.",
     },
-    tags: ["creative"],
-    publishDate: "2025",
+    tags: ["Corporativo"],
+    publishDate: "4 de Octubre 2024",
   },
   {
     id: 2,
-    title: "9 simple ways to improve your design skills",
+    title: "Cierre del curso de mediacion laboral.",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "Desde el 23 al 28 de septiembre se llevo a cabo el curso de mediacion laboral, con una duracion de 24 horas academicas, de forma presencil en las instalaciones de la sede de la UCAB Guayana.",
     image: "/images/blog/blog-02.jpg",
     author: {
-      name: "Musharof Chy",
+      name: "Luis Olavarrieta.",
       image: "/images/blog/author-02.png",
-      designation: "Content Writer",
+      designation: "Periodista.",
     },
-    tags: ["computer"],
-    publishDate: "2025",
+    tags: ["Laboral"],
+    publishDate: "29 de Septiembre 2024",
   },
   {
     id: 3,
-    title: "Tips to quickly improve your coding speed.",
+    title: "Cierre del programa de negociación global con la delegación MUNUCAB Guayana.",
     paragraph:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sit amet dictum neque, laoreet dolor.",
+      "El cierre del programa de programa de negociación global, organizado por la Coordinacion Academica del Colegio de Abogados del Estado Bolivar y la delegación MUNUCAB Guayana.",
     image: "/images/blog/blog-03.jpg",
     author: {
-      name: "Lethium Deo",
+      name: "Valeria Gonzalez.",
       image: "/images/blog/author-03.png",
-      designation: "Graphic Designer",
+      designation: "Coordinadora de comunicaciones MUNUCAB.",
     },
-    tags: ["design"],
-    publishDate: "2025",
+    tags: ["Negociacion"],
+    publishDate: "27 de Septiembre 2024",
   },
 ];
 export default blogData;
