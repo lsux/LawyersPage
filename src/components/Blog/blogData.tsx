@@ -24,7 +24,7 @@ const blogData: Blog[] = [
     author: {
       name: "Luis Olavarrieta.",
       image: "/images/blog/author-02.png",
-      designation: "Periodista.",
+      designation: "Periodista y escritor.",
     },
     tags: ["Laboral"],
     publishDate: "29 de Septiembre 2024",
