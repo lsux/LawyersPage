@@ -23,7 +23,7 @@ const Hero = () => {
                 // style={{ boxShadow: "1px 1px 5px 0 rgba(0, 0, 0, 0.5)" }}
                 style={{
                   maskImage:
-                    "radial-gradient(closest-corner, black 45%, transparent 70%)",
+                    "radial-gradient(circle farthest-corner at center, black 55%, transparent 100%)",
                   // "radial-gradient(closest-side, black 50%, transparent 100%)",
                 }}
               >
